@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d1a6320310.js" crossorigin="anonymous"></script>
+    <title>Previsão Tempo</title>
+    <link rel="stylesheet" href="previsao.css">
+</head>
+<body id="bodyy">
+   <div id="container">
+    <div id="div_lista">
+        <h2>Cidades para pesquisa</h2>
+        <p id="p_lista"></p>
+        <button id="btn_acima">Remover lista</button>
+    </div>
+        <div id="titulo">
+            <h3>Confira o clima de uma cidade:</h3>
+        </div>
+        <div id="pesquisar">
+            <input type="text" name="inp_pesquisar" id="inp_pesquisar" placeholder="Digite o nome de uma cidade">
+            <button id="btn_pesquisar"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div id="linha"></div>
+        <div id="informacoes">
+            <div id="pais">
+                <div id="simbolo_localizacao"><i id="localization"></i></div>
+                <div class="nome_cidade"></div>
+                <div id="bandeira_pais"><img alt="" srcset="" id="imagem"></div>
+            </div>
+            <div id="temperatura"></div>
+            <div id="tipo_de_tempo">
+                <!--<i class="fa-solid fa-sun-plant-wilt"></i> sol-->
+                <!--<i class="fa-solid fa-smog"></i> neblina-->
+                <!--<i class="fa-solid fa-cloud-rain"></i> chuva-->
+                <i id="icone_clima"></i> 
+                <div id="nome"></div>
+            </div>
+            <div id="umidade_vento">
+                <div id="umidade">
+                    <div id="icone_umidade"><i id="i_umidade"></i></div>
+                    <div id="nome_umidade"></div>
+                </div>
+                <div id="velocidade_vento">
+                    <div id="icone_vento"><i id="i_vento"></i></div>
+                    <div id="nome_vento"></div>
+                </div>
+            </div>
+        </div>
+        <div id="div_btn_lista">
+            <button id="btn_lista">Lista de cidades</button>
+        </div>
+    </div>
+    <div id="div_lista"></div>
+
+    <script src="previsao.js"></script>
+</body>
+</html>

@@ -1,0 +1,255 @@
+body{
+    height: 100vh;
+    background-image: url(ceu.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    color: rgb(243, 242, 242);
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 1.8vw;
+    
+}
+#pesquisar{
+    display: flex;
+    flex-direction: row;
+}
+
+#titulo{
+    text-align: center;
+    width: 159%;
+    
+}
+
+#container{
+    border: 1px solid white;
+    width: 20%;
+   
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    padding-left: 6%;
+    padding-right: 6%;
+    background-color: rgb(79, 61, 240);
+    border-color: rgb(79, 61, 240) ;
+    border-radius: 10px;
+    padding-bottom: 2%;
+
+}
+
+input{
+    width: 22vw;
+    height: 3.2vw;
+    border-radius: 5px;
+    border-color: rgb(79, 61, 240);
+    font-size: 1.37vw;
+}
+
+button{
+    
+    width: 20%;
+    border-radius: 5px;
+    margin-left: 2%;
+    cursor: pointer;
+    border-color: rgb(79, 61, 240);
+    transition: 0.4s;
+}
+
+button:hover{
+    background-color: rgb(130, 205, 255);
+    color: white;
+}
+
+#linha{
+    border: 2px solid white;
+    width: 26vw;
+    height: 10%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-top: 15%;
+    margin-bottom: 2%;
+    
+}
+
+#pais{
+    display: flex;
+    flex-direction: row;
+}
+
+.nome_cidade{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top:-10%;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+   
+    
+}
+
+#informacoes{
+    
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#temperatura{
+    margin-top: 15%;
+    color: white;
+    font-weight:500;
+    font-size: 3vw;
+}
+img{
+    height: 60%;
+    
+}
+
+i{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    
+}
+
+#localization{
+    color: white;
+}
+#tipo_de_tempo{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+#nome{
+    margin-left: 10%;
+    font-size: 1.8vw;
+}
+#umidade_vento{
+    margin-left: 6%;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+  
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#umidade, #velocidade_vento{
+    font-size: 1.8vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#umidade{
+    border: 1px solid white;
+    border-top: none;
+    border-left:none ;
+    border-bottom: none;
+    margin-right: 6%;
+    padding-right: 10%;
+    
+}
+
+#icone_umidade,#icone_vento{
+    margin-right: 10%;
+}
+
+#nome_umidade{
+    display: flex;
+  
+ 
+    padding-right: 20%;
+    margin-right: 10%;
+   
+}
+
+#nome_vento{
+    
+    width: 10vw;
+}
+
+#div_btn_lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+#btn_lista{
+    width: 80%;
+    border-radius: 5px;
+    margin-left: 2%;
+    cursor: pointer;
+    border-color: rgb(79, 61, 240);
+    color: rgb(79, 61, 240) ;
+    transition: 0.4s;
+    font-size: 1.6vw;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding: 2%;
+}
+
+#div_lista{
+    visibility:hidden;
+    position: absolute;
+    width: 50vw;
+    background-color: white;
+    font-size: 1.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-radius: 10px;
+    background-color: rgb(132, 240, 248);
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 1%;
+}
+
+h2{
+    text-align: center;
+}
+
+#btn_acima{
+    height: 4vh;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    background-color: rgb(245, 111, 111);
+    border-color: rgb(245, 111, 111);
+}
+
+#btn_acima:hover{
+    color: black;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
