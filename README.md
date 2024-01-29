@@ -2,8 +2,8 @@
 
 ### Funcionalidades
 
-Botão que lista as _**cidades disponíveis**_ para pesquisa, _**botão de pesquisa**_ e _**input**_ para o texto.
+* Botão que lista as _**cidades disponíveis**_ para pesquisa, _**botão de pesquisa**_ e _**input**_ para o texto.
 
 #### Link do projeto:
 
-https://henrique8878.github.io/condicoes_climatica_js/
+* https://henrique8878.github.io/condicoes_climatica_js/
