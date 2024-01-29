@@ -2,7 +2,7 @@
 
 ### Funcionalidades
 
-Botão que lista as **cidades disponíveis** para pesquisa, **botão de pesquisa** e **input** para o texto.
+Botão que lista as _**cidades disponíveis**_ para pesquisa, _**botão de pesquisa**_ e _**input**_ para o texto.
 
 #### Link do projeto:
 
